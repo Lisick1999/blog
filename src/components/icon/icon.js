@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
-const IconContainer = ({ className, id }) => (
-	<div className={className}>
-		<i class={`fa ${id}`} aria-hidden="true"></i>
-	</div>
-);
+const IconContainer = ({ className, id, ...props }) => {
+	return (
+		<div className={className} {...props}>
+			<i className={`fa ${id}`} aria-hidden="true"></i>
+		</div>
+	);
+};
 
 export const Icon = styled(IconContainer)`
 	font-size: ${({ size = '24px' }) => size};
