@@ -12,28 +12,7 @@
       "login": "qazwsx",
       "password": "123654789",
       "registed_at": "2064-05-31 11:07",
-      "role_id": 2
-    },
-    {
-      "id": "d901",
-      "login": "asdxzc",
-      "password": "asdzxc",
-      "registed_at": "2054-06-28 11:42",
-      "role_id": 2
-    },
-    {
-      "id": "536c",
-      "login": "asdqwe",
-      "password": "123qwe",
-      "registed_at": "2035-05-09 12:15",
-      "role_id": 2
-    },
-    {
-      "id": "fe72",
-      "login": "oip",
-      "password": "zxcvbn",
-      "registed_at": "2057-09-10 09:35",
-      "role_id": 2
+      "role_id": 1
     }
   ],
   "roles": [
