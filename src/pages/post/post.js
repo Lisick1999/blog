@@ -8,14 +8,14 @@ import { loadPostAsync } from '../../actions';
 import { selectPost } from '../../selectors';
 
 const PostContainer = ({ className }) => {
-	const post = useSelector(selectPost);
 	const dispatch = useDispatch();
 	const params = useParams();
 	const requestServer = useServerRequest();
+	const post = useSelector(selectPost);
 
 	useEffect(() => {
-		dispatch(loadPostAsync(params.id));
-	}, []);
+		dispatch(loadPostAsync(requestServer, params.id));
+	}, [dispatch, requestServer, params.id]);
 	return (
 		<div className={className}>
 			<PostContent post={post} />
