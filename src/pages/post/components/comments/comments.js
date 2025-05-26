@@ -17,6 +17,7 @@ const CommentsContainer = ({ className, comments, postId }) => {
 		dispatch(addCommentAsync(requestServer, userId, postId, content));
 		setNewComment('');
 	};
+
 	return (
 		<div className={className}>
 			<div className="new-comment">
@@ -39,6 +40,7 @@ const CommentsContainer = ({ className, comments, postId }) => {
 					<Comment
 						key={id}
 						id={id}
+						postId={postId}
 						author={author}
 						content={content}
 						publishedAt={publishedAt}
