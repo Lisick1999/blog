@@ -112,7 +112,36 @@
       "content": "qwerqwerqwer qrewqvewrcvre rcfewrqwercqwerqwe"
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "id": "3cf6",
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2040-12-17 05:51",
+      "content": "sadadsadsadsads asdadsadsads adsadsads"
+    },
+    {
+      "id": "a536",
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2033-10-18 14:21",
+      "content": "adsadsads adsadsadszxzxZXzx22"
+    },
+    {
+      "id": "15b3",
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2044-05-20 05:48",
+      "content": "213213"
+    },
+    {
+      "id": "ccd9",
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2061-05-11 20:02",
+      "content": "qsadasd"
+    }
+  ],
   "sessions": [
     {
       "id": "276c",

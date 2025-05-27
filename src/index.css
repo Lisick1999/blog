@@ -27,3 +27,8 @@ a {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+img {
+	/* width: 280px; */
+	height: 150px;
+}
