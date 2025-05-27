@@ -1,5 +1,3 @@
-import { loadPostAsync } from '../../actions';
-
 export const updatePost = ({ id, imageUrl, title, content }) =>
 	fetch(`http://localhost:3005/posts/${id}`, {
 		method: 'PATCH',

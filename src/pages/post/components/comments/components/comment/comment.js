@@ -27,6 +27,7 @@ const CommentContainer = ({ className, id, postId, author, publishedAt, content 
 				<div className="information-panel">
 					<div className="author">
 						<Icon
+							inactive={true}
 							id="fa-user-circle-o"
 							size="18px"
 							margin="0 10px 0 0"
@@ -36,6 +37,7 @@ const CommentContainer = ({ className, id, postId, author, publishedAt, content 
 					</div>
 					<div className="published-at">
 						<Icon
+							inactive={true}
 							id="fa-calendar-o"
 							size="18px"
 							margin="0 10px 0 0"
