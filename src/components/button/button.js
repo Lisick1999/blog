@@ -18,6 +18,6 @@ export const Button = styled(ButtonContainer)`
 	border: 1px solid #000;
 	background-color: #eee;
 	&:hover {
-		cursor: pointer;
+		cursor: ${({ disabled }) => (disabled ? 'default' : 'pointer')};
 	}
 `;
