@@ -47,7 +47,7 @@ export const Blog = () => {
 					<Route path="/post" element={<Post />} />
 					<Route path="/post/:id" element={<Post />} />
 					<Route path="/post/:id/edit" element={<Post />} />
-					<Route path="*" element={<Error />} />
+					<Route path="*" element={<Error error={ERROR.PAGE_NOT_EXIST} />} />
 				</Routes>
 			</Page>
 			<Footer />
