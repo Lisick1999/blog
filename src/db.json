@@ -204,6 +204,17 @@
         "roleId": 0
       },
       "id": "oPLLDYR"
+    },
+    {
+      "hash": "0.48675282545808018497268676583189517259597778320313",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
+      },
+      "id": "qpuqCE6"
     }
   ]
 }
