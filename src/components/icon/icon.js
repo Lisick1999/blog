@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
-const IconContainer = ({ className, id, ...props }) => {
+const IconContainer = ({ className, id, inactive, ...props }) => {
 	return (
 		<div className={className} {...props}>
 			<i className={`fa ${id}`} aria-hidden="true"></i>
@@ -14,6 +15,11 @@ export const Icon = styled(IconContainer)`
 	color: ${({ disabled }) => (disabled ? '#ccc' : '#000')};
 
 	&:hover {
-		cursor: pointer;
+		cursor: ${({ inactive }) => (inactive ? 'default' : 'pointer')};
 	}
 `;
+
+Icon.propTypes = {
+	id: PropTypes.string.isRequired,
+	inactive: PropTypes.bool,
+};
